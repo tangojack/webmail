@@ -1,0 +1,31 @@
+#header{
+  max-width: 100%;
+  border: 1px solid #431;
+  background-color: #124;
+}
+
+#header h1{
+  color: white;
+  text-align: center;
+}
+
+#function{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  height: 60px;
+  background-color: blue;
+}
+
+/*
+#function button:nth-child(1){
+  background-color: red;
+}*/
+
+#function button{
+  min-width: 40px;
+  min-height: 50px;
+}
