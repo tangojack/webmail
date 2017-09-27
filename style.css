@@ -19,7 +19,6 @@
   height: 60px;
   background-color: blue;
 }
-
 /*
 #function button:nth-child(1){
   background-color: red;
@@ -28,4 +27,21 @@
 #function button{
   min-width: 40px;
   min-height: 50px;
+}
+
+.line{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #000;
+}
+#email li{
+  list-style-type: none;
+
+}
+input[type=checkbox] {
+  transform: scale(3);
 }
